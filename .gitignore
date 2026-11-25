@@ -1,0 +1,13 @@
+# áudio do jogo e dados gerados (não vão pro GitHub: são grandes e o áudio original é da Rockstar)
+backup_original/
+projeto/
+VoiceStudio/
+instalador/build_tmp/
+instalador/dist/
+__pycache__/
+*.wav
+*.ogg
+*.flac
+*.pak
+*.db
+*.log

@@ -1,0 +1,46 @@
+DUBLADOR GTA SAN ANDREAS
+========================
+
+Abrir: dois cliques em "Abrir Dublador.bat".
+
+O QUE TEM NA LISTA
+  🎬 CUTSCENE  - áudio das cutscenes (141 faixas; fala e música vêm misturadas)
+  🗣 SCRIPT    - diálogos das missões e telefonemas
+  🗣 SPC_PA    - falas do CJ
+  🗣 SPC_GA / SPC_NA / SPC_EA / SPC_FA - falas de NPCs, gangues, polícia
+  🗣 PAIN_A    - gemidos de dor
+  (GENRL e FEET são efeitos, não voz, mas também dá para trocar)
+
+  O jogo não tem nome para cada fala; elas aparecem como SPC_PA_b003_s012
+  (pacote, banco, número). Use o campo "Texto / tradução" para anotar o que
+  cada fala diz — depois dá para buscar por esse texto.
+
+COMO DUBLAR UMA FALA
+  1. Clique na fala e aperte ESPAÇO para ouvir o original.
+  2. Aperte R para gravar com o microfone, R de novo para parar
+     (ou "Importar arquivo..." para usar um WAV/MP3/OGG pronto).
+  3. "Ouvir minha versão" para conferir. N vai para a próxima fala.
+  4. Quando quiser testar no jogo: feche o GTA e clique "APLICAR NO JOGO".
+
+EM LOTE (Audacity etc.)
+  - Selecione um banco/pacote e "Exportar banco/pacote selecionado".
+  - Edite/regrave os WAVs SEM mudar o nome do arquivo.
+  - "Importar pasta com WAVs editados".
+
+CUTSCENES
+  Cada cutscene é uma faixa só com fala + música. Exporte, coloque sua voz por
+  cima no Audacity mantendo o mesmo tempo (para não dessincronizar a boca/animação)
+  e importe de volta.
+
+LIMITES
+  Cada fala tem um tamanho máximo (mostrado no painel). Se a sua gravação for
+  mais longa, o programa reduz a qualidade (taxa) para caber; se mesmo assim não
+  couber, ela é cortada e aparece um aviso. Fale um pouco mais rápido nessas.
+
+SEGURANÇA
+  - Na primeira vez que aplicar, os arquivos originais são movidos para
+    "backup_original". "Restaurar áudio original" devolve tudo.
+  - Suas gravações ficam em projeto\substituicoes (sfx = falas, cutscene = .ogg)
+    e as anotações em projeto\textos.json. Copie a pasta "projeto" para guardar.
+  - Se usar "Verificar integridade dos arquivos" na Steam, ela desfaz a dublagem;
+    é só clicar em APLICAR de novo.
